@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.buy {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.sell {
+    background-color: #f8d7da;
+    color: #721c24;
+}
